@@ -1,0 +1,28 @@
+.section {
+    margin: 0 auto;
+    text-align: center;
+}
+.title {
+    display: block;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 5px;
+    color: #fff;
+}
+.custom-text {
+    color: palevioletred;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inputText {
+    color: palevioletred;
+    text-align: center;
+    margin: 0 auto;
+}
