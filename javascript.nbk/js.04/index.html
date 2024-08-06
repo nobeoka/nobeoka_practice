@@ -8,24 +8,27 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <button class="JsonBtn" id="JsonBtn">読み込む</button>
-        <table id="jsonTable">
+        <button id="btn">JSONを読み込んでみよう</button>
+        <table>
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Protein</th>
-                    <th>Iron</th>
+                    <th>番号</th>
+                    <th>名前</th>
+                    <th>色</th>
+                    <th>形</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- データがここに挿入されます -->
+                <tr>
+                    <td id="number"></td>
+                    <td id="name"></td>
+                    <td id="color"></td>
+                    <td id="form"></td>
+                </tr>
             </tbody>
         </table>
-
-        <script type="stylesheet" src="create.js"></script>
-        <script type="stylesheet" src="create2.js"></script>
-
+        <script type="text/javascript" src="create.js"></script>
+        <script type="text/javascript" src="create.js2/data.json"></script>
         <!-- <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
